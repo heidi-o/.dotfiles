@@ -28,16 +28,14 @@
 [push]
   default = current
 [user]
-	name = nerdsRob
-	email = robert@soundcloud.com
+  name = heidio
+	email = heidi@heidi-o.de
 [merge]
 	tool = Kaleidoscope
 [apply]
 	whitespace = fix
 [author]
-	name = Rob Siwek
-	name = =
-	name = =
+	name = Heidi
 [difftool "Kaleidoscope"]
 	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [diff]
